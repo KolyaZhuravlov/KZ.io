@@ -81,9 +81,12 @@ export default {
 .right {
 	margin-right: 20px;
 	cursor: pointer; 
+	position: fixed;
+	right: 0;
+	z-index: 999;
 }
 .dropdown-menu {
-  position: fixed;
+	position: fixed;
   top: 0;
   left: 0;
   width: 100%;
